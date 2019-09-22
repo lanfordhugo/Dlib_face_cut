@@ -18,8 +18,6 @@ img = cv2.imread(path+"test_faces_6.jpg")
 # dlib检测
 dets = detector(img, 1)
 
-print("人脸数：", len(dets))
-
 # 记录人脸矩阵大小
 height_max = 0
 width_sum = 0
